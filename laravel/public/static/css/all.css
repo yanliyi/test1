@@ -1,0 +1,21 @@
+html,head{ height:100%;}
+a{text-decoration-line: none;}
+.box{ text-align: center;  }
+div{text-align: center;}
+#pic{margin-top: 10px;}
+.btn{
+    height: 30px;
+    line-height: 30px;
+    border:1px solid #CCC;
+    background-color: #fff;
+    padding:0 10px;
+    margin-right:50px;
+    color:#333;
+}
+li{display:inline;}
+
+.btn:hover{
+    color:white;
+    background-color: grey;
+}
+body{background-color: #FCFB98}

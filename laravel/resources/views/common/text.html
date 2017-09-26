@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    html,head{
+        height:100%;
+        width:100%;
+    }
+    body{background-color:#FCFB98;}
+    a{text-decoration-line: none;}
+    #pic{text-align: center; }
+    .btn{
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        border:1px solid #CCC;
+        background-color: #fff;
+        padding:0 10px;
+        margin-right:50px;
+        color:#333;
+    }
+    .btn:hover{
+        color:white;
+        background-color: grey;
+    }
+    #message{text-align: center;}
+    textarea{
+        width: 50%;
+        height: 100px;
+    }
+
+</style>
+<body>
+
+<div class="box" id="header">
+    <img src="../../../public/static/images/title_top1.png" width="100%"/>
+</div>
+
+
+<!--图片框-->
+<div class="box" id="pic">
+    <p>img</p>
+    <img src=" "/>
+    <p>
+        <a herf="javascript:;" class="btn" data-control="prev">上一张</a>
+        <a herf="javascript:;" class="btn" data-control="next">下一张</a>
+    </p>
+</div>
+
+<div class="box" id="message">
+    <form>
+        <p>
+            <span>名称:</span>
+            <input class="text"/>
+        </p>
+    <textarea>你可以在此输入留言</textarea>
+    <p>
+        <a herf="javascript:;" class="btn" data-control="sumbit">提交</a>
+    </p>
+    </form>
+</div>
+
+<ul>
+    <li>name<li>
+</ul>
+<!--留言显示处-->
+<div class="box" id="messagebox">
+<table>
+    <tbody>
+
+    <tr>名称：</tr>
+    <tr></tr>
+    </tbody>
+    <tbody>
+
+    <br/>
+
+    <tr>留言：</tr>
+    <tr></tr>
+    </tbody>
+
+</table>
+</div>
+
+<div class="box" id="footer">
+    <img src="../../../public/static/images/title_top1.png" width="100%"/>
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
