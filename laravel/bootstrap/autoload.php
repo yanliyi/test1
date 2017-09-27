@@ -28,6 +28,7 @@ require __DIR__.'/../vendor/autoload.php';
 */
 
 $compiledPath = __DIR__.'/cache/compiled.php';
+require __DIR__.'/../app/Helpers/function.php';
 
 if (file_exists($compiledPath)) {
     require $compiledPath;

@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('pic/index',['uses'=>'MessageController@index']);
 Route::any('pic/save',['uses'=>'MessageController@save']);
+Route::any('pic/search',['uses'=>'PicController@search']);

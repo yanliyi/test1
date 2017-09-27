@@ -19,7 +19,7 @@
 <!--头部-->
 @section('header')
     <div class="box" id="header">
-        <img src="{{asset('static/images/title_top1.png')}}" width="100%"/>
+        <img src="{{asset('static/image1/title_top1.png')}}" width="100%"/>
     </div>
 @show
 <div style="background-color:#FFFBD3; width: 1024px; text-align: center; margin: 0 auto;">
@@ -52,7 +52,7 @@
 <!--尾部-->
 @section('footer')
     <div class="box" id="footer">
-        <img src="{{asset('static/images/title_top1.png')}}" width="100%"/>
+        <img src="{{asset('static/image1/title_top1.png')}}" width="100%"/>
     </div>
 @show
 

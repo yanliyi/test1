@@ -2,8 +2,10 @@
 namespace App\Http\Controllers;
 use App\Pic;
 class PicController extends Controller {
-    public function index(){
-        $images=Pic::get();
-        return view('pic.index',['images'=>$images]);
+
+    public function search(){
+        $arr_file = array();
+        tree($arr_file, asset('/static/images'));
+        return dd($arr_file);
     }
 }

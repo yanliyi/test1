@@ -1,5 +1,7 @@
 @extends('common.layouts')
 
+
+
 @section('style')
     <style>
         .box{text-align: center;}
@@ -36,11 +38,7 @@
 
 @section('Pic')
     <div class="box">
-        <img src="https://timgsa.baidu.
-        com/timg?image&quality=80&size=b9999_10000
-        &sec=1504003665557&di=7d03eb31a2bfd44940b210c7ea
-        5724d7&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fupl
-        oads%2Fitem%2F201502%2F13%2F20150213133350_miyij.jpeg" alt="pic" id="img" width="1024px"/>
+        <img src="{{asset("/static/images/1.jpg")}}" alt="pic" id="img" width="1024px"/>
 
         <p>
             <a herf="javascript:;" class="btn" data-control="prev" >上一张</a>
@@ -73,10 +71,8 @@
     <script src="{{asset('/static/js/preload.js')}}"></script>
     <script>
         var imgs=[
-            'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504003665557&di=7d03eb31a2bfd44940b210c7ea5724d7&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201502%2F13%2F20150213133350_miyij.jpeg',
-            'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504003665554&di=17fce7a8a4fd110eb5488928bf4e2e00&imgtype=0&src=http%3A%2F%2Fimg3.100bt.com%2Fupload%2Fttq%2F20121021%2F1350785768838.jpg',
-            'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504003665552&di=c5989ad94faf1ff5c8ddf9f1bc6e56e7&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fe7cd7b899e510fb3822713cad133c895d1430cb4.jpg',
-            'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504003665546&di=0c2e72f35d3b0ad55fa87836c4898719&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201609%2F11%2F20160911203223_yi3GT.jpeg'
+            '{{asset("/static/images/1.jpg")}}',
+            '{{asset("/static/images/2.jpg")}}'
         ];
 
         var index=0,
